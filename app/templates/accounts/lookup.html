@@ -1,0 +1,21 @@
+<div id="accountLookup" class="dialog">
+<div class="pvx prm border--8">
+	<div class="sg-component-container center clear">
+	<a href="" route="dialog/close" name="close" title="close" class="db tr size-full pbm">
+		<span class="db icon-utility-close f2 wht"></span>
+	</a>
+	<article class="mam bg-1 border border--3 brm">
+		<ul class="list-plain fw-normal bg-2 man pan">
+		    <% _.each( rc.accounts, function( account ){ %>
+			
+		  <li class="active--list-1 pam text-color-1 f4 border-bottom border--3"><%- account.name %>
+		  </li>
+  	  	<% }); %>
+		</ul>
+		
+	</article>
+	
+	
+</div>
+</div>
+</div>

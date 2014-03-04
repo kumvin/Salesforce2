@@ -1,0 +1,26 @@
+#busyPopup {
+    -webkit-border-radius: 10px;
+    background-color: rgba(0,0,0,.7);
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+	height: 100%;
+    margin: 0 auto;
+    position: absolute;
+	padding-left: 20px;
+	padding-top: 20px;
+    top: 0px;
+    width: 100%;
+}
+.dialog {
+    background-color: rgba(0,0,0,.7);
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+	height: 100%;
+    margin: 0 auto;
+    position: absolute;
+	padding: 5px;
+    top: 0px;
+    width: 100%;
+}
